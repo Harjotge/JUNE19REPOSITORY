@@ -2,12 +2,15 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Lon Hosford Basic Animation in Create JS</title>
+<script src="https://code.createjs.com/1.0.0/createjs.min.js">
+</script>
+<title>Try to run it if you can</title>
 <script>
-
+		var stage;
 		function init() 
 		{
-			alert("Hello World!");
+			stage = new createjs.Stage("stage-canvas");
+			alert(stage.canvas);
 		}
 </script>
 <style>
